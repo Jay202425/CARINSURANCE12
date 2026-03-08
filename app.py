@@ -89,7 +89,7 @@ with tab1:
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Prepare input data
-    if st.button("🔮 Predict Premium", use_container_width=True, type="primary"):
+    if st.button("🔮 Predict Premium", use_container_width=True):
         # Encode categorical variables
         try:
             fuel_encoded = encoders['fuel_type'].transform([fuel_type])[0]
