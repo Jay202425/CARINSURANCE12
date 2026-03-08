@@ -2,8 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-from PIL import Image
-import plotly.express as px
 import plotly.graph_objects as go
 import os
 from sklearn.preprocessing import StandardScaler, LabelEncoder
